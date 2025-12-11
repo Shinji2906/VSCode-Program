@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLSV_ModelStoreContainer" CdmEntityContainer="QLSV_Entities">
+    <EntitySetMapping Name="Faculty">
+      <EntityTypeMapping TypeName="QLSV_Model.Faculty">
+        <MappingFragment StoreEntitySet="Faculty">
+          <ScalarProperty Name="count_professor" ColumnName="count_professor" />
+          <ScalarProperty Name="FacultyID" ColumnName="FacultyID" />
+          <ScalarProperty Name="FacultyName" ColumnName="FacultyName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="QLSV_Model.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="AverageScore" ColumnName="AverageScore" />
+          <ScalarProperty Name="FacultyID" ColumnName="FacultyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

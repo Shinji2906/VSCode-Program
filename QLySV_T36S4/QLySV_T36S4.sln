@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLySV_T36S4.GUI", "QLySV_T36S4.GUI\QLySV_T36S4.GUI.csproj", "{7738D252-B01A-4317-81E4-4532A3EE0A71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792} = {63626F80-AFCC-4A37-8161-4A7FCB8CD792}
+		{FC036C38-3158-4910-921B-47C102657B22} = {FC036C38-3158-4910-921B-47C102657B22}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLySV_T36S4.BLL", "QLySV_T36S4.BLL\QLySV_T36S4.BLL.csproj", "{FC036C38-3158-4910-921B-47C102657B22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792} = {63626F80-AFCC-4A37-8161-4A7FCB8CD792}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLySV_T36S4.DAL", "QLySV_T36S4.DAL\QLySV_T36S4.DAL.csproj", "{63626F80-AFCC-4A37-8161-4A7FCB8CD792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7738D252-B01A-4317-81E4-4532A3EE0A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7738D252-B01A-4317-81E4-4532A3EE0A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7738D252-B01A-4317-81E4-4532A3EE0A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7738D252-B01A-4317-81E4-4532A3EE0A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC036C38-3158-4910-921B-47C102657B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC036C38-3158-4910-921B-47C102657B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC036C38-3158-4910-921B-47C102657B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC036C38-3158-4910-921B-47C102657B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63626F80-AFCC-4A37-8161-4A7FCB8CD792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

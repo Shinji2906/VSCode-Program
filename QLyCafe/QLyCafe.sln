@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLyCafe.GUI", "QLyCafe.GUI\QLyCafe.GUI.csproj", "{2978F93C-7E8F-4AEB-8298-439F9063908A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLyCafe.BLL", "QlyCafe.BLL\QLyCafe.BLL.csproj", "{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B} = {6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLyCafe.DAL", "QLyCafe.DAL\QLyCafe.DAL.csproj", "{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2978F93C-7E8F-4AEB-8298-439F9063908A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2978F93C-7E8F-4AEB-8298-439F9063908A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2978F93C-7E8F-4AEB-8298-439F9063908A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2978F93C-7E8F-4AEB-8298-439F9063908A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

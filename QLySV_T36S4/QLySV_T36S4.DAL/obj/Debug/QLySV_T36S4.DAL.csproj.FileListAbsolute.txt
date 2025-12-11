@@ -1,0 +1,12 @@
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\QLySV_T36S4.DAL.dll
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\QLySV_T36S4.DAL.pdb
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\obj\Debug\QLySV_T36S4.DAL.csproj.AssemblyReference.cache
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\obj\Debug\QLySV_T36S4.DAL.csproj.CoreCompileInputs.cache
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\obj\Debug\QLySV_T36S4.DAL.dll
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\obj\Debug\QLySV_T36S4.DAL.pdb
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\QLySV_T36S4.DAL.dll.config
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\EntityFramework.dll
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\EntityFramework.xml
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSstudio\QLySV_T36S4\QLySV_T36S4.DAL\obj\Debug\QLySV_T3.7565B276.Up2Date

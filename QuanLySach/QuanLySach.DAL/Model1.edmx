@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLYSACHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Sach">
+          <Key>
+            <PropertyRef Name="MaSach" />
+          </Key>
+          <Property Name="MaSach" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenSach" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TacGia" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="GioiThieu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="MaTheLoai" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TheLoaiSach">
+          <Key>
+            <PropertyRef Name="MaTheLoai" />
+          </Key>
+          <Property Name="MaTheLoai" Type="int" Nullable="false" />
+          <Property Name="TenTheLoai" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Sach_TheLoaiSach">
+          <End Role="TheLoaiSach" Type="Self.TheLoaiSach" Multiplicity="1" />
+          <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TheLoaiSach">
+              <PropertyRef Name="MaTheLoai" />
+            </Principal>
+            <Dependent Role="Sach">
+              <PropertyRef Name="MaTheLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLYSACHModelStoreContainer">
+          <EntitySet Name="Sach" EntityType="Self.Sach" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TheLoaiSach" EntityType="Self.TheLoaiSach" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Sach_TheLoaiSach" Association="Self.FK_Sach_TheLoaiSach">
+            <End Role="TheLoaiSach" EntitySet="TheLoaiSach" />
+            <End Role="Sach" EntitySet="Sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLYSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Sach">
+          <Key>
+            <PropertyRef Name="MaSach" />
+          </Key>
+          <Property Name="MaSach" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GioiThieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaTheLoai" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="TheLoaiSach" Relationship="Self.FK_Sach_TheLoaiSach" FromRole="Sach" ToRole="TheLoaiSach" />
+        </EntityType>
+        <EntityType Name="TheLoaiSach">
+          <Key>
+            <PropertyRef Name="MaTheLoai" />
+          </Key>
+          <Property Name="MaTheLoai" Type="Int32" Nullable="false" />
+          <Property Name="TenTheLoai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Sach" Relationship="Self.FK_Sach_TheLoaiSach" FromRole="TheLoaiSach" ToRole="Sach" />
+        </EntityType>
+        <Association Name="FK_Sach_TheLoaiSach">
+          <End Role="TheLoaiSach" Type="Self.TheLoaiSach" Multiplicity="1" />
+          <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TheLoaiSach">
+              <PropertyRef Name="MaTheLoai" />
+            </Principal>
+            <Dependent Role="Sach">
+              <PropertyRef Name="MaTheLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLYSACH_Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Sach" EntityType="Self.Sach" />
+          <EntitySet Name="TheLoaiSach" EntityType="Self.TheLoaiSach" />
+          <AssociationSet Name="FK_Sach_TheLoaiSach" Association="Self.FK_Sach_TheLoaiSach">
+            <End Role="TheLoaiSach" EntitySet="TheLoaiSach" />
+            <End Role="Sach" EntitySet="Sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLYSACHModelStoreContainer" CdmEntityContainer="QLYSACH_Entities">
+          <EntitySetMapping Name="Sach">
+            <EntityTypeMapping TypeName="QLYSACHModel.Sach">
+              <MappingFragment StoreEntitySet="Sach">
+                <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+                <ScalarProperty Name="TenSach" ColumnName="TenSach" />
+                <ScalarProperty Name="TacGia" ColumnName="TacGia" />
+                <ScalarProperty Name="GioiThieu" ColumnName="GioiThieu" />
+                <ScalarProperty Name="MaTheLoai" ColumnName="MaTheLoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TheLoaiSach">
+            <EntityTypeMapping TypeName="QLYSACHModel.TheLoaiSach">
+              <MappingFragment StoreEntitySet="TheLoaiSach">
+                <ScalarProperty Name="MaTheLoai" ColumnName="MaTheLoai" />
+                <ScalarProperty Name="TenTheLoai" ColumnName="TenTheLoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

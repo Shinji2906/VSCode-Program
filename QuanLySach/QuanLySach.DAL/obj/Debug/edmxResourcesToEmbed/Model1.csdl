@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLYSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="MaSach" />
+    </Key>
+    <Property Name="MaSach" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GioiThieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaTheLoai" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TheLoaiSach" Relationship="Self.FK_Sach_TheLoaiSach" FromRole="Sach" ToRole="TheLoaiSach" />
+  </EntityType>
+  <EntityType Name="TheLoaiSach">
+    <Key>
+      <PropertyRef Name="MaTheLoai" />
+    </Key>
+    <Property Name="MaTheLoai" Type="Int32" Nullable="false" />
+    <Property Name="TenTheLoai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sach" Relationship="Self.FK_Sach_TheLoaiSach" FromRole="TheLoaiSach" ToRole="Sach" />
+  </EntityType>
+  <Association Name="FK_Sach_TheLoaiSach">
+    <End Role="TheLoaiSach" Type="Self.TheLoaiSach" Multiplicity="1" />
+    <End Role="Sach" Type="Self.Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TheLoaiSach">
+        <PropertyRef Name="MaTheLoai" />
+      </Principal>
+      <Dependent Role="Sach">
+        <PropertyRef Name="MaTheLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLYSACH_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sach" EntityType="Self.Sach" />
+    <EntitySet Name="TheLoaiSach" EntityType="Self.TheLoaiSach" />
+    <AssociationSet Name="FK_Sach_TheLoaiSach" Association="Self.FK_Sach_TheLoaiSach">
+      <End Role="TheLoaiSach" EntitySet="TheLoaiSach" />
+      <End Role="Sach" EntitySet="Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

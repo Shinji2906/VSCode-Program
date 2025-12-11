@@ -1,0 +1,16 @@
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.exe
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.deps.json
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.runtimeconfig.json
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.dll
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.pdb
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.Form1.resources
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.GenerateResource.cache
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfoInputs.cache
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfo.cs
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.dll
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\refint\QuanLySinhVien.dll
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.pdb
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.genruntimeconfig.cache
+D:\VSstudio\QuanLySinhVien\QuanLySinhVien\obj\Debug\net8.0-windows\ref\QuanLySinhVien.dll

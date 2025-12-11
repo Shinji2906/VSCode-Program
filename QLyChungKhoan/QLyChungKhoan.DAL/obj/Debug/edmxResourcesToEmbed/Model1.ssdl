@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLCKModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChungKhoan">
+    <Key>
+      <PropertyRef Name="MaCK" />
+    </Key>
+    <Property Name="MaCK" Type="int" Nullable="false" />
+    <Property Name="TenCK" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKhachHang" />
+    </Key>
+    <Property Name="MaKhachHang" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenKhachHang" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GioiTinh" Type="bit" Nullable="false" />
+    <Property Name="SoTien" Type="float" Nullable="false" />
+    <Property Name="MaCK" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_KhachHang_ChungKhoan">
+    <End Role="ChungKhoan" Type="Self.ChungKhoan" Multiplicity="1" />
+    <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChungKhoan">
+        <PropertyRef Name="MaCK" />
+      </Principal>
+      <Dependent Role="KhachHang">
+        <PropertyRef Name="MaCK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLCKModelStoreContainer">
+    <EntitySet Name="ChungKhoan" EntityType="Self.ChungKhoan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_KhachHang_ChungKhoan" Association="Self.FK_KhachHang_ChungKhoan">
+      <End Role="ChungKhoan" EntitySet="ChungKhoan" />
+      <End Role="KhachHang" EntitySet="KhachHang" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

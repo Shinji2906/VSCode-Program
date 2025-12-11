@@ -1,0 +1,12 @@
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\QLyChungKhoan.DAL.dll.config
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\QLyChungKhoan.DAL.dll
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\QLyChungKhoan.DAL.pdb
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\EntityFramework.dll
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\EntityFramework.xml
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\obj\Debug\QLyChungKhoan.DAL.csproj.AssemblyReference.cache
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\obj\Debug\QLyChungKhoan.DAL.csproj.CoreCompileInputs.cache
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\obj\Debug\QLyChung.C4B908B6.Up2Date
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\obj\Debug\QLyChungKhoan.DAL.dll
+D:\VSstudio\QLyChungKhoan\QLyChungKhoan.DAL\obj\Debug\QLyChungKhoan.DAL.pdb

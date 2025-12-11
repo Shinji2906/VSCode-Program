@@ -1,0 +1,15 @@
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.BLL.dll.config
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.BLL.dll
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.BLL.pdb
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\EntityFramework.dll
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.DAL.dll
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.DAL.pdb
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\QuanLySach.DAL.dll.config
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\EntityFramework.xml
+D:\VSstudio\QuanLySach\QuanLySach.BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSstudio\QuanLySach\QuanLySach.BLL\obj\Debug\QuanLySach.BLL.csproj.AssemblyReference.cache
+D:\VSstudio\QuanLySach\QuanLySach.BLL\obj\Debug\QuanLySach.BLL.csproj.CoreCompileInputs.cache
+D:\VSstudio\QuanLySach\QuanLySach.BLL\obj\Debug\QuanLySa.AB09740D.Up2Date
+D:\VSstudio\QuanLySach\QuanLySach.BLL\obj\Debug\QuanLySach.BLL.dll
+D:\VSstudio\QuanLySach\QuanLySach.BLL\obj\Debug\QuanLySach.BLL.pdb
