@@ -244,7 +244,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1027, 28);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
-            // 
             // ChucNang
             // 
             this.ChucNang.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {

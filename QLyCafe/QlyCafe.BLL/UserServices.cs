@@ -7,7 +7,7 @@ using QLyCafe.DAL;
 
 namespace QlyCafe.BLL
 {
-    internal class UserServices
+    public class UserServices
     {
         private QlyCafe_Entities dbContext;
         public UserServices() {

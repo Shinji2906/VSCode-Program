@@ -16,5 +16,17 @@ namespace QLyCafe.GUI
         {
             InitializeComponent();
         }
+
+        private void quanLyDanhMucToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_QLDanhMuc form_QLDanhMuc = new Form_QLDanhMuc();
+            this.Hide();
+            form_QLDanhMuc.ShowDialog();
+        }
+
+        private void quanLySanPhamToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

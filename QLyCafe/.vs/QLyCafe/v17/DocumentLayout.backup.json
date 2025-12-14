@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\VSstudio\\QLyCafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\form_qldanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\form_qldanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\form_qldanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\form_qldanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}|QlyCafe.BLL\\QLyCafe.BLL.csproj|d:\\vsstudio\\qlycafe\\qlycafe.bll\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}|QlyCafe.BLL\\QLyCafe.BLL.csproj|solutionrelative:qlycafe.bll\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|D:\\VSstudio\\QLyCafe\\qlycafe.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}|QLyCafe.DAL\\QLyCafe.DAL.csproj|D:\\VSstudio\\QLyCafe\\qlycafe.dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}|QLyCafe.DAL\\QLyCafe.DAL.csproj|solutionrelative:qlycafe.dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}|QlyCafe.BLL\\QlyCafe.BLL.csproj|d:\\vsstudio\\qlycafe\\qlycafe.bll\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|d:\\vsstudio\\qlycafe\\qlycafe.gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}|QlyCafe.BLL\\QlyCafe.BLL.csproj|D:\\VSstudio\\QLyCafe\\qlycafe.bll\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CCE9A17-8963-40C8-9C59-BA17D880C8CB}|QlyCafe.BLL\\QlyCafe.BLL.csproj|solutionrelative:qlycafe.bll\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}|QLyCafe.DAL\\QLyCafe.DAL.csproj|d:\\vsstudio\\qlycafe\\qlycafe.dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{6DCF7F18-A024-44A0-9F2B-76F0C3838B7B}|QLyCafe.DAL\\QLyCafe.DAL.csproj|solutionrelative:qlycafe.dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|D:\\VSstudio\\QLyCafe\\qlycafe.gui\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2978F93C-7E8F-4AEB-8298-439F9063908A}|QLyCafe.GUI\\QLyCafe.GUI.csproj|solutionrelative:qlycafe.gui\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,18 +51,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Login.cs",
-              "RelativeDocumentMoniker": "QLyCafe.GUI\\Login.cs",
-              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Login.cs [Design]",
-              "RelativeToolTip": "QLyCafe.GUI\\Login.cs [Design]",
+              "Title": "Form_QLDanhMuc.cs",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "RelativeDocumentMoniker": "QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "RelativeToolTip": "QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAApwFgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T10:10:53.854Z",
+              "WhenOpened": "2025-12-12T09:52:10.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_QLDanhMuc.cs [Design]",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "RelativeDocumentMoniker": "QLyCafe.GUI\\Form_QLDanhMuc.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form_QLDanhMuc.cs [Design]",
+              "RelativeToolTip": "QLyCafe.GUI\\Form_QLDanhMuc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:49:38.12Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CategoryServices.cs",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QlyCafe.BLL\\CategoryServices.cs",
+              "RelativeDocumentMoniker": "QlyCafe.BLL\\CategoryServices.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QlyCafe.BLL\\CategoryServices.cs",
+              "RelativeToolTip": "QlyCafe.BLL\\CategoryServices.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv3IAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:06:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs",
+              "RelativeDocumentMoniker": "QLyCafe.GUI\\Form1.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs",
+              "RelativeToolTip": "QLyCafe.GUI\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:45:48.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs",
+              "RelativeDocumentMoniker": "QLyCafe.GUI\\Form1.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs [Design]",
+              "RelativeToolTip": "QLyCafe.GUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:05:32.944Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Program.cs",
+              "RelativeDocumentMoniker": "QLyCafe.GUI\\Program.cs",
+              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Program.cs",
+              "RelativeToolTip": "QLyCafe.GUI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:24:41.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserSession.cs",
               "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\UserSession.cs",
               "RelativeDocumentMoniker": "QLyCafe.GUI\\UserSession.cs",
@@ -59,20 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UserServices.cs",
               "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QlyCafe.BLL\\UserServices.cs",
               "RelativeDocumentMoniker": "QlyCafe.BLL\\UserServices.cs",
               "ToolTip": "D:\\VSstudio\\QLyCafe\\QlyCafe.BLL\\UserServices.cs",
               "RelativeToolTip": "QlyCafe.BLL\\UserServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T09:52:24.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.DAL\\Model1.edmx",
               "RelativeDocumentMoniker": "QLyCafe.DAL\\Model1.edmx",
@@ -81,18 +161,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-12-09T09:26:07.676Z",
               "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs",
-              "RelativeDocumentMoniker": "QLyCafe.GUI\\Form1.cs",
-              "ToolTip": "D:\\VSstudio\\QLyCafe\\QLyCafe.GUI\\Form1.cs [Design]",
-              "RelativeToolTip": "QLyCafe.GUI\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T09:05:32.944Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

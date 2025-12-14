@@ -1,0 +1,15 @@
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QlyCafe.BLL.dll.config
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QlyCafe.BLL.dll
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QlyCafe.BLL.pdb
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\EntityFramework.dll
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QLyCafe.DAL.dll
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QLyCafe.DAL.pdb
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\QLyCafe.DAL.dll.config
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\EntityFramework.xml
+D:\VSstudio\QLyCafe\QlyCafe.BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSstudio\QLyCafe\QlyCafe.BLL\obj\Debug\QLyCafe.BLL.csproj.AssemblyReference.cache
+D:\VSstudio\QLyCafe\QlyCafe.BLL\obj\Debug\QLyCafe.BLL.csproj.CoreCompileInputs.cache
+D:\VSstudio\QLyCafe\QlyCafe.BLL\obj\Debug\QLyCafe..B7279158.Up2Date
+D:\VSstudio\QLyCafe\QlyCafe.BLL\obj\Debug\QlyCafe.BLL.dll
+D:\VSstudio\QLyCafe\QlyCafe.BLL\obj\Debug\QlyCafe.BLL.pdb

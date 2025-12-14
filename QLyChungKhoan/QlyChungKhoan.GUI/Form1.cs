@@ -205,10 +205,7 @@ namespace QlyChungKhoan.GUI
         }
         private void F2_OnKhachHangSaved(KhachHang kh)
         {
-            // Thêm vào database nếu muốn
             quanLyKhachHang.ThemKhachHang(kh);
-
-            // Và đổ ra DataGridView
             Doc_DuLieu_dgvChungKhoan();
         }
 
@@ -218,5 +215,7 @@ namespace QlyChungKhoan.GUI
             this.Hide();
             form2.ShowDialog();
         }
+
+       
     }
 }

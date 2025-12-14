@@ -18,7 +18,7 @@ namespace QLyChungKhoan.BLL.QuanLy
 
         public List<KhachHang> GetAllKhachHang()
         {
-            return dbContext.KhachHang.ToList();
+            return dbContext.KhachHang.Include("ChungKhoan").ToList();
         }
 
         public KhachHang GetKhachHangByID(string id)
@@ -49,7 +49,7 @@ namespace QLyChungKhoan.BLL.QuanLy
         {
             var khach = dbContext.KhachHang.Find(id);
             if (khach != null)
-            {
+            {   
                 dbContext.KhachHang.Remove(khach);
                 dbContext.SaveChanges();
             }
